@@ -1,0 +1,159 @@
+body, h1, h2, h3, p, div, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#apartments {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #444;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#apartment-list div {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#apartment-list div h2 {
+    font-size: 16px;
+    margin-right: 10px;
+    color: #333;
+}
+
+button {
+    padding: 6px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#apartment-list div button {
+    background-color: #007BFF;
+    color: white;
+}
+
+#apartment-list div button:hover {
+    background-color: #0056b3;
+}
+
+#createApartment, #createRoom {
+    background-color: #28a745;
+    color: white;
+    margin-top: 10px;
+}
+
+#createApartment:hover, #createRoom:hover {
+    background-color: #218838;
+}
+
+#goBack {
+    background-color: #6c757d;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#goBack:hover {
+    background-color: #5a6268;
+}
+
+#rooms div {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+#rooms div h3 {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+#rooms div span {
+    font-size: 13px;
+    color: #666;
+    margin-right: 10px;
+}
+
+#rooms div button {
+    padding: 5px 8px;
+    font-size: 12px;
+    background-color: #17a2b8;
+    color: white;
+}
+
+#rooms div button:hover {
+    background-color: #117a8b;
+}
+
+div {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+div:hover {
+    transform: scale(1.01);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#apartment-details .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 20px;
+}
+
+#apartment-details h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
